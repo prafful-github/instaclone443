@@ -5,7 +5,7 @@ const PORT = process.env.PORT
 // oKYYAfdtXxI5IgWS password of username = praffulkumar121 on mongodb
 const {MONGOURI} = require('./config/keys')
 const cors = require('cors');
-
+const path = require('path');
 
 // to solve cors error
 // app.use(cors({
